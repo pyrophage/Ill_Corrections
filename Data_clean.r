@@ -25,4 +25,3 @@ Race<-life%>%
 RaceSDP<-SDP%>%
   group_by(Race)%>%
   summarise(Count = n())
-
