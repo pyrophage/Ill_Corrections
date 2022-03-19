@@ -1,7 +1,5 @@
 
-# Nope
-Playing around
-#I wonder if R stuff will work in this. 
+# I wonder if R stuff will work in this. 
 =======
 # Illinois Corrections
 
