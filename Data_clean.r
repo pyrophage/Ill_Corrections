@@ -25,10 +25,7 @@ Race<-life%>%
 RaceSDP<-SDP%>%
   group_by(Race)%>%
   summarise(Count = n())
-<<<<<<< HEAD
-=======
 
->>>>>>> b303c5b647cfeb535fde7f2e98427c9f6025e150
 RaceStandard<-Standard%>%
   group_by(Race)%>%
   summarise(Count=n())
