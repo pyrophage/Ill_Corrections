@@ -21,13 +21,10 @@ SDP<-df%>%
 
 Standard<-df%>%
   filter(!Sent_yrs %in% c("LIFE", "SDP"))%>%
-<<<<<<< HEAD
   filter(!is.na(Name))%>%
   mutate(Sent_yrs = as.numeric(Sent_yrs), 
          Sent_mon = as.numeric(Sent_mon))
-=======
-  mutate(Sent_yrs = as.numeric(Sent_yrs))
->>>>>>> 3ce085520c0a0addbb703ccec46f2a470a22a881
+
 
 
 Race<-life%>%
