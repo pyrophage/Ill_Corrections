@@ -17,3 +17,7 @@ Standard<-df%>%
   filter(!`Sentence Years` %in% c("LIFE", "SDP"))%>%
   mutate(`Sentence Years` = as.numeric(`Sentence Years`))
 
+
+Race<-life%>%
+  group_by(Race)%>%
+  summarise(Count = n())
