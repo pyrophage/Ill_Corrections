@@ -21,3 +21,8 @@ Standard<-df%>%
 Race<-life%>%
   group_by(Race)%>%
   summarise(Count = n())
+
+RaceSDP<-SDP%>%
+  group_by(Race)%>%
+  summarise(Count = n())
+
