@@ -25,6 +25,7 @@ Standard<-df%>%
   mutate(Sent_yrs = as.numeric(Sent_yrs), 
          Sent_mon = as.numeric(Sent_mon))
 
+
 Race<-life%>%
   group_by(Race)%>%
   summarise(Count = n())
